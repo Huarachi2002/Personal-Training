@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gcliente"
+            android:icon="@drawable/ic_menu_gcliente"
+            android:title="@string/menu_gcliente" />
+        <item
+            android:id="@+id/nav_grutina"
+            android:icon="@drawable/ic_menu_grutina"
+            android:title="@string/menu_grutina" />
+        <item
+            android:id="@+id/nav_galimentacion"
+            android:icon="@drawable/ic_menu_galimentacion"
+            android:title="@string/menu_galimentacion" />
+    </group>
+</menu>
